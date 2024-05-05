@@ -1,0 +1,43 @@
+.navbar {
+    height: 3.6rem;
+    width: 100vw;
+    margin: 0 auto;
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    background-color: whitesmoke;
+    z-index: 3;
+    position: fixed;
+}
+
+.logo {
+    object-fit: cover;
+    height: 5rem;
+    width: 5rem;
+    cursor: pointer;
+}
+
+.navbarMenu {
+    margin: 1rem;
+    cursor: pointer;
+}
+
+.navbarMenuListItem {
+    padding: 2rem;
+}
+
+.navbarMenuListItem:hover {
+    color: darkturquoise;
+    padding-bottom: 1rem;
+    border-bottom: 6px solid darkturquoise;
+}
+
+.navbarMenuBtn {
+    height: 2rem;
+    width: 7rem;
+    background-color: darkturquoise;
+    border-radius: 1rem;
+}
